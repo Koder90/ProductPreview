@@ -1,0 +1,60 @@
+ :root{
+ background: rgb(235, 226, 226);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background: white;
+    margin: 0 auto;
+    width: 500px;
+    height: 345px;
+    border-radius: 10px;
+}
+
+.image-wrapper {
+   padding-right: 10px;
+   overflow: hidden;
+   border-radius: 10px;
+   height:auto;
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+}
+
+.title {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: large;
+font-weight: 500;
+text-align: left;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    padding: 5px;
+    height: 35px;
+    width: 180px;
+    background: rgb(80, 146, 80);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.small-title {
+    text-align: left;
+    font-size: 12px;
+letter-spacing: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
